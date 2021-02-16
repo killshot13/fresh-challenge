@@ -1,0 +1,40 @@
+{
+  "name": "fresh-react-code-challenge",
+  "version": "1.0.0",
+  "description": "a react and node.js app challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "start-client": "react-scripts start",
+    "start-server": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.ftservices.cloud/crobinson/react-app-code-challenge"
+  },
+  "author": "coryrobinson42@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "koa": "^2.13.1",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
