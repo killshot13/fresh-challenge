@@ -10,13 +10,13 @@ const Home = () => {
         <Grid stackable padded>
           <Grid.Row>
             <Grid.Column mobile={16} tablet={8} computer={4}>
-              <Link to="/series">
+              <Link to="/entries/series">
                 <Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
                 <h3>Popular Series</h3>
               </Link>
             </Grid.Column>
             <Grid.Column mobile={16} tablet={8} computer={4}>
-              <Link to="/movies">
+              <Link to="/entries/movie">
                 <Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
                 <h3>Popular Movies</h3>
               </Link>
